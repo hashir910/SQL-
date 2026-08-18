@@ -13,9 +13,9 @@ From Employees
 CREATE TABLE Students (
 	Std_id INT NOT NULL,
 	Department VARCHAR(20),
-	Contact_no INT NOT NULL,
-	Age INT NOT NULL,
-	Balance INT NOT NULL
+	Contact_no INT ,
+	Age INT ,
+	Balance INT,
 	CONSTRAINT primary_key_students PRIMARY KEY (Std_id)
 )
 
